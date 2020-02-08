@@ -23,7 +23,7 @@ function belowDesiredTemp(desiredTemp) {
 
 function start(){
   setInterval(function() {
-    if(belowDesiredTemp(79)){
+    if(belowDesiredTemp(77) && (temp1 != 32 && temp1 != 185 && temp2 != 32 && temp2 != 185)){
       digitalWrite(relay, 1); 
     }
     else digitalWrite(relay, 0); 
