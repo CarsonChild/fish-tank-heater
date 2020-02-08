@@ -4,7 +4,7 @@ var therm1 = require("DS18B20").connect(sensor1);
 var therm2 = require("DS18B20").connect(sensor2);
 var relay = D5; //D1 on the board
 var temp1=81, temp2=81; //Temp higher than 81 as another default off
-
+//test
 function celciusToF(temp){
   return temp * (9 / 5) + 32;
 }
