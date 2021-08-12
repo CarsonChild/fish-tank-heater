@@ -1,0 +1,2 @@
+# fish-tank-heater
+I have a small fish tank and bought a small heater that didn't have a thermometer, so it was always on and thus needed to be controlled so the tank did not overheat. This program takes reading from two DS18B20 thermometers and computes the average. If the average is over the desired temperatur, it turns the relay the heater is wire to off. While the temperature readings are under the desired temp, the relay is on. This program is designed to run on ESpruino boards.
